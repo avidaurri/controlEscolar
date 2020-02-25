@@ -1,0 +1,23 @@
+.titulo h4{
+	color: gray;
+}
+
+.card_ciclo_escolar .card-body p{
+	margin: 0;
+	font-size: 12px;
+}
+
+.tablaResumenCicloEscolar tr th, .tablaResumenCicloEscolar tr td{
+font-size: 12px;
+padding: 0;
+}
+
+.card-body{
+	padding: 5px;
+}
+
+.card-body .botonopcionescicloescolar{
+padding: 2px;
+font-size: 12px !important;
+}
+
