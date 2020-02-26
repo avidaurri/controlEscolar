@@ -6,9 +6,15 @@ import { NgModule } from '@angular/core';
 import { APP_ROUTES } from './app.routes';
 //modules
 import { PagesModule } from "./pages/pages.modulo";
+
+//temporal
+import { FormsModule } from "@angular/forms";
+
+
 //componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+//import { IncrementadorComponent } from './components/incrementador/incrementador.component';
 
 
 @NgModule({
@@ -20,7 +26,8 @@ import { LoginComponent } from './login/login.component';
   imports: [
     BrowserModule,
     APP_ROUTES,
-    PagesModule
+    PagesModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

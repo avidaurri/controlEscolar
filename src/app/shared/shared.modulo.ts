@@ -21,5 +21,4 @@ import { NopagefoundComponent } from './nopagefound/nopagefound.component';
 
 export class SharedModule {
 
-
 }
