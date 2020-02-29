@@ -9,10 +9,12 @@ import { FormsModule } from "@angular/forms";
 // ng2- charts
 import { ChartsModule } from 'ng2-charts';
 
+
 import { PAGES_ROUTES } from './pages.routes';
 //temporal
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
     declarations:[
@@ -22,7 +24,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
         CiclosescolaresComponent,
         PagesComponent,
         IncrementadorComponent,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        AccountSettingsComponent
     ],
     exports:[
         DashboardComponent,

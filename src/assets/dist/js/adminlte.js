@@ -1,3 +1,9 @@
+
+function init_plugins(){
+
+  console.log('inicia init');
+
+
 /*!
  * AdminLTE v3.0.2-pre (https://adminlte.io)
  * Copyright 2014-2019 Colorlib <http://colorlib.com>
@@ -1837,3 +1843,7 @@
 
 })));
 //# sourceMappingURL=adminlte.js.map
+
+
+
+}
